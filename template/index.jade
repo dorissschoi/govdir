@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	if (messages)
+			ul
+			each m in messages
+				li=m
+
+	div(id='contact')
+	
+	script(data-main="/scripts/js/main.js", src="/scripts/js/require.js")
+	script(id='list-template', type='text/template').
+		
+	
+		
+		

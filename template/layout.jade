@@ -1,0 +1,22 @@
+doctype 5
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.css')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+		style(type="text/css").
+			.content {
+				padding-top: 60px;
+			}
+			@media (max-width: 767px) {
+				.content {
+					padding-top: 0;
+				}
+			}
+		<!--[if lt IE 9]>
+		script(src="//html5shim.googlecode.com/svn/trunk/html5.js")
+		<![endif]-->
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		
+	body
+		block content

@@ -1,0 +1,81 @@
+@media ( min-width : 1200px) {
+	.container {
+		max-width: inherit;
+	}
+}
+
+@media ( min-width : 992px) {
+	.container {
+		max-width: inherit;
+	}
+}
+
+@media ( min-width : 768px) {
+	.container {
+		max-width: inherit;
+	}
+}
+/* custome */
+@media ( max-width :970px) {
+	#contactDetail {
+		display: none;
+	}
+}
+
+@media ( min-width :971px) {
+	#contactDetail {
+		display: block;
+	}
+}
+
+@media all and (max-width: 989px) and (min-width: 956px) {
+	#contactDetail {
+		display: none;
+	}
+}
+/* custome */
+#contactDetail {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#listregion {
+	position: fixed;
+	margin-top: 45px;
+	overflow-y: scroll;
+	padding-bottom: 5px;
+}
+
+#listregion .nav li a {
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+
+#searchregion {
+	position: fixed;
+	padding-top: 5px;
+}
+
+#detailregion {
+	padding-left: 20px;
+}
+
+#contactList {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.showDetailclick {
+	display: none;
+}
+
+.highlight a {
+	color: black;
+	background-color: lightblue;
+}
+
+.highlight {
+	color: black;
+	background-color: lightblue;
+}
