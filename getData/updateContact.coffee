@@ -19,7 +19,7 @@ exports.insertdb = insertdb = (callback) ->
     contactdata = uniquedata(alldata)
     userModel.remove (err) ->
       return handleError(err)  if err
-      #logger.debug "Remove model..."
+      logger.debug "Remove model..."
       createdata contactdata
 
   createdata = (contactdata) ->
